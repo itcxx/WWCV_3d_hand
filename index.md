@@ -2,7 +2,7 @@
 layout: project_page
 permalink: /
 
-title: Distributed training method implementation and optimization
+title: 3D Hand Pose Estimation from a Wrist-worn Camera View
 authors:
     X. CHU
 affiliations:
@@ -18,19 +18,9 @@ data: None
     <div class="column is-four-fifths">
         <h2>Abstract</h2>
         <div class="content has-text-justified">
-The "computable" numbers may be described briefly as the real
-numbers whose expressions as a decimal are calculable by finite means.
-Although the subject of this paper is ostensibly the computable numbers.
-it is almost equally easy to define and investigate computable functions
-of an integral variable or a real or computable variable, computable
-predicates, and so forth. The fundamental problems involved are,
-however, the same in each case, and I have chosen the computable numbers
-for explicit treatment as involving the least cumbrous technique. I hope
-shortly to give an account of the relations of the computable numbers,
-functions, and so forth to one another. This will include a development
-of the theory of functions of a real variable expressed in terms of computable
-numbers. According to my definition, a number is computable
-if its decimal can be written down by a machine...
+Hand pose estimation has extensive applications in fields such as virtual reality, augmented reality, and human-computer interaction. However, existing models based on single-view image input face numerous challenges in terms of accuracy, robustness, and real-time performance, particularly when dealing with 3D pose tracking issues caused by hand occlusion in real-world scenarios. To address this challenge, this study proposes an innovative method that utilizes a dual-camera system mounted on the hand to capture images from different perspectives, enabling 3D hand pose estimation. To generate accurate 3D hand pose labels, we designed a system comprising four depth cameras that capture the hand from multiple angles, thereby creating a new dataset that includes synchronized dual-camera images and precise 3D hand pose labels. Our dataset is the first to support 3D hand prediction using dual-view inputs.
+
+Our approach processes the dual-camera images using xxxxxxxxx technology to predict the 3D pose of the hand, effectively overcoming the limitations and occlusion issues of traditional third-person single-camera methods. Our 3D detection model shows great potential for application in high-demand fields such as robotic hand control. Experimental results demonstrate that our model significantly outperforms existing methods in terms of accuracy and robustness, providing an efficient and reliable solution for real-time hand pose estimation, with the potential to drive further development in related applications.
         </div>
     </div>
 </div>
