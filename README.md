@@ -1,18 +1,3 @@
----
-layout: project_page
-permalink: /
-
-title: 3D Hand Pose Estimation from a Wrist-worn Camera View
-authors:
-    X. CHU
-affiliations:
-    Dankook Uni
-paper: None
-video: None
-code: None
-data: None
----
-
 <!-- Using HTML to center the abstract -->
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
